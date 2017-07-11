@@ -1,0 +1,1087 @@
+@import bourbon
+@import vars.sass
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+i
+    font-style: normal
+
+.img-responsive
+    width: 100%
+
+.section*
+    padding-top: 10px
+    padding-bottom: 10px
+    
+    
+//Custom Styles Here
+
+.section_3
+	background-color: #ABD5F4
+
+.section_3_row
+	padding: 40px 0px
+.section_3_col_2
+
+	h2
+		font-family: "OpenSansLight"
+		font-size: em(30px)
+		line-height: 34px
+	a
+		display: inline-block
+		font-family: "OpenSansRegular"
+		font-size: em(24px)
+		letter-spacing: -1.8px
+		margin-bottom: 40px
+		line-height: 14px
+		padding: 0px
+	span
+		font-family: "fontAwesome"
+		font-size: em(16px)
+		display: inline-block
+		color: #F9DF05
+	p
+		font-family: "OpenSansRegular"
+		font-size: em(14px)
+		display: inline-block
+		padding: 5px
+		line-height: 0px
+		color: black
+		
+		
+.button
+	background-color: #14B75A
+	margin-top: em(30px)
+	color: white
+	display: inline-block
+	border: none
+	font-family: "Exo2Bold" 
+	font-size: em(17px)
+	color: white
+	text-transform: uppercase
+	box-shadow: 0 5px 0px #1d9a54
+	+mt(.3s)
+	&:hover, &:focus
+		text-decoration: none
+		background-color: #0dd864
+		color: #e3e2e2
+	&:active
+		background-color: #1d9a54
+		transform: translateY(3px)
+	span
+		display: inline-block
+		padding-right: em(0px)
+		padding-left: em(5px)
+		font-size: em(26px)
+		color: white
+		vertical-align: middle
+		padding-bottom: 4px
+	p
+		font-family: "Exo2Bold" 
+		font-size: em(13px)
+		padding-left: em(10px)
+		padding-right: em(10px)
+		letter-spacing: -1px
+		color: white
+.section_3_button_1
+	padding-right: 0px
+	margin-right: 0px
+	width: auto
+.section_3_col_2
+	padding-left: 50px
+	
+///IMG 
+
+
+
+.section_3_col_1
+	margin-left: 20px
+	margin-right: -20px
+
+.mfp-gallery-wrap	
+	padding-top: em(15px)	
+.img_3
+	
+	min-height: em(375px)
+	line-height: 0px
+	border: 7px solid #89B6D9
+	background-size: cover
+	position: relative
+	display: block
+	span
+		font-family: "fontAwesome"
+		color: #b8cfee
+		font-size: em(67px)
+	&::before
+		content: ""
+		width: 100%
+		height: 100%
+		position: absolute
+		top: 0
+		left: 0
+		background-color: #638BAA
+		opacity: .6
+	&:hover
+		opacity: .7
+		p
+	
+
+	
+		
+	p
+		font-family: "Exo2Bold" 
+		font-size: em(42px)
+		color: white
+		display: inline-block
+		text-decoration: underline
+.triangle
+	position: absolute
+	right: 0px
+	top: 0px
+	@include triangle(95px, #638BAA, up-right)
+	span
+		position: absolute
+		top: -67px
+		left: -45px
+		font-family: "fontAwesome"
+		color: white
+		font-size: em(38px)
+.post_header_1_container
+	padding-left: em(50px)
+	
+	   
+	
+.table
+	padding-top: 150px
+	display: table
+	width: 100%
+	text-align: center
+	vertical-align: middle
+	position: relative
+.tr
+	display: table-row
+.td
+	display: table-cell
+.section_3_button
+	display: inline-block
+	width: 100%
+	
+
+
+//img//
+.mfp-gallery-wrap > a
+	display: block
+	&:first-child
+		display: block
+  
+
+.CSC
+	color: red
+
+
+/////////section 4
+
+
+.section_4
+	background-color: #40647F
+	padding: 20px 0px
+	padding-bottom: 40px
+	text-align: center
+	h1
+		font-family: "OpenSansBold"
+		font-size: em(30px)
+		color: white
+	h2
+		font-size: em(37px)
+		font-family: "Exo2Bold"
+		color: white
+		text-align: center
+
+		
+	p
+		color: white
+		padding: 0px 20px
+		margin: 0px
+		font-family: "OpenSansRegular"
+		font-size: em(15px)
+		
+	a
+		border-radius: 7px
+		padding: 0px 10px 0px 0px
+		line-height: 30px
+		span
+			font-family: "fontAwesome"
+			padding: 0px 10px
+			
+
+
+.section_4_col_1
+	position: relative
+	.img-svg
+		width: 150px
+		height: auto
+	path 
+		fill: white !important
+		+mt(.4s)
+	&:hover
+		h2
+			&::before
+				content: ""
+				position: absolute
+				bottom: 0px
+				height: 1px
+				width: 48%
+				left: 50%
+				margin-left: -24%
+				background-color: #94b3a1
+		path 
+			fill: #EB7618 !important
+		p
+			color: #d1d9dd
+			
+	
+
+.section_4_h2
+	position: relative
+	&::before
+		content: ""
+		position: absolute
+		bottom: 0px
+		height: 1px
+		width: 16%
+		left: 50%
+		margin-left: -8%
+		background-color: #A3C1B0
+		+mt(.3s)
+
+	
+.section_4_col_2
+	position: relative
+	.img-svg
+		width: em(150px)
+		height: auto
+	path 
+		fill: white !important
+		+mt(.4s)
+	&:hover
+		h2
+			&::before
+				content: ""
+				position: absolute
+				bottom: 0px
+				height: 1px
+				width: 48%
+				left: 50%
+				margin-left: -24%
+				background-color: #94b3a1
+		path 
+			fill: #EB7618 !important
+		p
+			color: #d1d9dd
+			
+
+
+.section_4_col_3
+	position: relative
+	.img-svg
+		width: 150px
+		height: auto
+	path 
+		fill: white !important
+		+mt(.4s)
+	&:hover
+		h2
+			&::before
+				content: ""
+				position: absolute
+				bottom: 0px
+				height: 1px
+				width: 48%
+				left: 50%
+				margin-left: -24%
+				background-color: #94b3a1
+		path 
+			fill: #EB7618 !important
+		p
+			color: #d1d9dd
+			
+.section_4
+	.img-svg
+		width: 120px
+		margin-bottom: 0px
+
+		
+		
+///section_5
+
+.section_5_cont_1
+    display: block
+    .row
+        display: block
+
+.section_5
+    padding-bottom: 20px
+    
+.section_5
+	background-color: #ABD5F4
+	text-align: center
+    display: block
+    
+    
+	h3
+		font-family: "OpenSansBold"
+		font-size: em(30px)
+		letter-spacing: 0px
+		padding: 20px 0px
+	i
+		display: none
+	p
+		display: none
+.section_5_cont
+    display: block
+    .row
+        display: block
+    .col-md-3
+        padding: 0px
+    .col-md-3:nth-child(3)
+        padding-right: 15px
+    .col-md-3:nth-child(7)
+        padding-right: 15px
+
+.section_5_item_1
+    height: 200px
+    max-width: 100%
+    position: relative
+
+.section_5_img
+	max-width: 100%   
+    margin: 100%
+    padding: auto
+	position: relative
+	transform: scale(1.2)
+    
+	+mt(.4s) 
+.section_5_item_1
+	text-align: center
+    padding: 0px
+	overflow: hidden
+	display: block
+	background-color: black
+    min-width: 100%
+	&:hover
+		.section_5_img
+			transform: scale(1)
+			opacity: 0.4
+		i
+			font-family: "fontAwesome"
+			font-style: normal
+			color: #eb7618
+			font-size: em(25px)
+			position: absolute
+			top: 65px
+			display: inline-block
+		p
+			font-family: "OpenSansRegular"
+			font-size: em(19px)
+			width: 100%
+			color: white
+			position: absolute
+			bottom: 0px
+			left: 0px
+			text-transform: uppercase
+			white-space: pre-line
+			line-height: 18px
+			padding: 0 15px
+			display: inline-block
+
+
+	
+.portfolio-popup
+	text-align: center
+	background-color: #d0dae1
+	display: inline-block
+	padding: -20px 10px
+	display: inline-block
+	width: 50%
+	margin-left: 20%
+    text-align: center
+
+
+    
+    
+	img
+		width: 500px
+        
+.portfolio-popup_text
+	h2
+		text-align: center
+		margin-top: 0px
+        margin-bottom: 80px
+		font-size: 30px
+        display: inline-block
+
+	
+tr
+	display: inline-block
+	margin-top: -60px
+	padding: 0px
+	vertical-align: middle
+	padding-right: 10px
+
+td
+	padding: 0px 10px
+	vertical-align: top
+	i
+		font-style: normal
+		color: #6894b0
+		vertical-align: top
+		padding-left: 0px
+	i:first-child
+		padding-left: 10px
+	h5
+		display: inline-block
+		font-size: em(14px)
+	p 
+		padding-top: 6px
+		font-family: "OpenSansRegular"
+
+td:nth-child(2)
+	padding-right: 40px
+
+
+//////
+///section_6//
+//////
+
+
+.section_6
+    color: white
+    width: 100%
+    padding: 15px 10px 30px 25px 
+    text-align: center
+    background-color: #3E627D
+    h3
+        font-family: "OpenSansBold"
+        color: white
+        font-size: em(32px)
+        
+
+
+svg
+    path
+        fill: white !important
+.carousel-wrap
+    background-color: #345267
+    box-shadow:  0 0 0 4px (white)
+    display: block
+    +mt(.5s) 
+    &:hover
+        box-shadow:  0 0 0 4px #FF9600
+        background-color: #D2861A * 0.8
+    border-radius: 5px
+    text-align: center
+    padding-bottom: 20px
+    color: white
+    .bg-col_1
+        display: block
+    .img_wrap
+        position: relative
+        min-width: 100%
+        padding-top: 1px
+        padding: 0px
+    .bg-col
+        max-width: 100%
+    .section_6_logo_1
+        max-height: 45px
+        position: absolute
+        top: 20px
+        left: -5px
+        max-width: 100%
+    +mt(.3s) 
+    &:hover
+        .img-svg
+            path
+                fill: #FF9600 !important
+    h2
+        display: inline-block
+        font-family: "OpenSansRegular"
+        font-size: em(22px)
+        color: white
+        margin-bottom: 0px
+        text-transform: uppercase
+    p
+        font-family: "OpenSansLight"
+        font-size: em(15px)
+        line-height: 19px
+        margin: 20px 0
+        padding: 0 20px
+    .button5_1
+        background-color: white
+        color: black
+        margin-top: 120px
+        box-shadow: none
+        font-size: em(11px)
+        width: 80%
+        margin-right: 15%
+    &:hover
+        .button5_1
+            background-color: #D2861A * 1.2
+            +mt(.5s) 
+            &:hover
+                background-color: #D2861A * 1.5
+        i
+            font-style: normal
+    &:hover
+        p
+            transform: scale(1.1)
+    .section_6_logo_3
+        position: absolute
+        top: 20px
+        max-width: 100%
+    .section_6_logo_korf
+        position: absolute
+.owl-nav
+    display: none        
+        
+.owl-carousel
+    .carousel-wrap
+        margin: 15px
+        margin-right: 30px
+    .owl-dots
+        margin-top: 40px
+        display: inline-block
+
+        .owl-dot
+            background-color: white
+            border-radius: 10px
+            width: 17px
+            height: 17px
+            margin-left: 5px
+            display: inline-block
+            &.active
+                background-color: #D2861A * 1.5
+            
+ 
+*  
+    transition: filter .25s ease
+.mfp-wrap ~ *
+    filter: blur(5px)
+        
+
+
+    
+/*Comment*/
+/*Comment*/
+/*Comment*/
+/*Comment*/
+/*Comment*/
+/*Comment*/
+
+.section_7
+    padding: 15px 10px 20px 30px
+    background-color: #6FA2C7
+
+.section_7_item
+    text-align: center
+    h3
+        font-size: em(30px)
+        margin-top: 30px
+        margin-bottom: 40px
+    span
+        font-size: em(20px)
+        font-family: "OpenSansRegular"
+        color: white
+        letter-spacing: -0.3px
+        p
+            color: red
+            display: inline
+            
+            
+    .button5_2
+        white-space: nowrap
+        margin-top: 40px
+        margin-bottom: 40px
+        box-shadow: none
+        display: inline-block
+        background-color: #D2861A
+        color: white
+        font-size: 16px
+        padding:  10px 40px 10px 10px
+        +mt(.4s)
+        &:hover
+            background-color: #D2861A * 1.2
+        
+        
+/*Comment*/
+/*Comment*/
+/*section7*/
+/*Comment*/
+/*Comment*/
+/*Comment*/
+
+.section_8
+    background-color: #3E627D
+    padding: 15px 10px 80px 30px
+    text-align: center
+    h3
+        color: white
+        font-size: em(30px)
+        margin-top: 30px
+        margin-bottom: 70px 
+        font-weight: bold
+        font-family: "OpenSansLight"
+
+.section_8_item
+    .section_8_wrapper
+        display: inline-block
+        text-align: center
+        height: 200px
+        width: 200px
+        border-radius: 100%
+        overflow: hidden
+    .section_8_image
+        height: 200px
+        width: 205px
+    h1
+        font-family: "OpenSansRegular"
+        font-size: em(18px)
+        color: white
+        margin: 10px 0 0 0 
+        padding: 0px
+    p
+        font-family: "OpenSansRegular"
+        font-size: em(14px)
+        color: black
+        letter-spacing: 2px
+        margin: 0px
+        padding: 0px 0 20px 0
+    span
+        color: white
+        font-family: "Exo2Bold"
+        font-size: 22px
+        i
+            font-family: "fontAwesome"
+            font-size: 17px
+            color: #f89509
+    +mt(.3s)
+    &:hover
+        .section_8_image
+            opacity: 0.4
+        .section_8_wrapper
+            background-color: #f89509
+        span
+            color: #f89509
+
+        p
+            letter-spacing: 3px
+        
+        
+    
+    
+/*Comment*/
+/*Comment*/
+/*Comment*/
+/*Comment*/
+/*Comment*/
+/*Comment*/
+
+
+.section_9
+    background-color: #6FA2C7
+    padding: 15px 50px 80px 50px
+    text-align: center
+    position: relative
+    h3  
+        font-size: em(30px)
+        margin-top: 30px
+        margin-bottom: 40px
+        color: black 
+        font-size: em(30px)
+        margin-top: 30px
+        margin-bottom: 70px
+        text-transform: uppercase
+        display: inline-block
+        
+    a
+        display: block
+    img
+        height: 45px
+        min-width: 50%
+        opacity: 0.6
+        &:hover
+            opacity: 1
+    .owl-dots
+        display: none
+    .owl-nav
+        display: block
+
+    .owl-prev
+        position: absolute
+        left: -20px
+        top: -13px
+        font-size: 45px
+        color: black 
+        opacity: 0.8
+        &:hover
+            color: #E08E1C * 1.2
+            opacity: 1
+
+    .owl-next
+        position: absolute
+        font-size: 45px
+        right: -40px
+        color: black
+        top: -10px
+        opacity: 0.8
+        &:hover
+            color: #E08E1C
+            opacity: 1
+
+
+/*Comment*/
+/*Comment*/
+/*Comment*/
+/*Comment*/
+/*Comment*/
+/*Comment*/
+    
+.section_10   
+    background-color: #3E627D
+    padding: 15px 10px 40px 30px
+    text-align: center
+    h3
+        color: white
+        font-size: em(30px)
+        margin-top: 30px
+        margin-bottom: 70px
+    .section_10_top_wrapper
+        transition: all .2s ease
+        &:hover
+            .section_10_img_wrapper
+                border: 3px solid #D2861A *  1.3
+            p
+                letter-spacing: 3px
+        .section_10_img_wrapper
+            display: inline-block
+            text-align: center
+            height: 150px
+            width: 150px
+            border-radius: 100%
+            overflow: hidden
+            border: 3px solid white
+            box-shadow: rgba(0,0,0,.4) 0 0 10px
+        .section_10_image
+            height: 150px
+            width: 155px
+            max-height: 100%
+        h1
+            font-family: "OpenSansRegular"
+            font-size: em(18px)
+            color: white
+            margin: 10px 0 0 0 
+            padding: 0px
+            text-transform: uppercase
+        p
+            font-family: "OpenSansRegular"
+            font-size: em(14px)
+            color: black
+            letter-spacing: 2px
+            margin: 0px
+            padding: 0px 0 20px 0    
+    
+.section_10_comment
+    margin-top: 20px
+    background-color: #29465C
+    max-width: 80%
+    display: inline-block
+    position: relative
+    border-radius: 3px
+    transition: all .2s ease
+    padding: 5px
+    box-sizing: border-box
+    &:hover
+        box-shadow: 0 4px 0px 0px #D2861A *  1.3
+ 
+
+    &::before
+        @include triangle(35px, #29465C, up)
+        content: ""
+        position: absolute
+        top: -16px
+        transform: translateX(-16px)
+    h3
+        color: white
+        font-size: em(25px)
+        margin: 10px 0 10px 0
+        letter-spacing: 2px
+    p
+        font-family: "OpenSansRegular"
+        font-size: em(14px)
+        color: white
+        padding: 0px 30px 30px 30px
+        text-align: justify
+
+    
+        
+.section_11
+    background-color: #6FA2C7
+    padding: 15px 10px 40px 30px
+    text-align: center
+    h3
+        color: black
+        font-size: em(30px)
+        margin-top: 30px
+        margin-bottom: 70px
+        text-transform: uppercase
+    .section_11_text
+        text-align: left
+        width: 100%
+        p
+            font-family: "OpenSansRegular"
+            font-size: em(16px)
+            margin: 0
+            padding: 0
+            color: #fff
+            display: inline-block
+            padding-left: 20px
+        i
+            font-family: "fontAwesome"
+            color: #fbb611
+            font-size: em(35px)
+        span
+            white-space: pre-line
+            margin-left: 20px
+            
+            i
+                margin: 0 10px 0 0
+                vertical-align: top
+            p
+                padding-top: 20px
+    .section_11_map
+        width: 100%
+        margin-top: 30px
+
+            
+
+.section11_cont
+    background-color: #3E627D
+    padding: 15px 20px 20px 20px
+    width: 85%
+    border-radius: 4px
+    display: inline-block
+    &:hover
+        box-shadow: 0px 7px 0px 0px #B79237 *  1.3
+
+    
+    h3
+        color: white
+        font-size: em(30px)
+        margin: 0px
+        margin-top: 20px
+        padding-bottom: 0
+        font-family: "OpenSansBold"    
+    p
+        color: #fbb610
+        font-size: em(16px)
+        font-family: "OpenSansLight"
+        margin: 10px
+        margin-bottom: 20px
+        padding: 0
+    label
+        text-align: left
+        .input_wrapper
+            position: relative
+            .dot
+                position: absolute
+                color: red
+        p
+            color: #afafaf
+            font-family: "OpenSansLight"
+            font-size: em(14px)
+            margin: 10px
+            padding-left: 5px
+        input
+            width: 90%
+            margin-bottom: 15px
+            border: none
+            background-color: #394E5D
+            position: relative
+            &:focus
+                color: white      
+        input[placeholder]
+            padding-left: 3px
+        select
+            width: 100px
+            margin-bottom: 20px
+            width: 90%
+            margin-bottom: 15px
+            border: none
+            background-color: #394E5D
+            color: #3E627D
+            font-family: "OpenSansLight"
+            height: 30px
+            option
+                padding: 2px 0px
+                color: WHITE
+            
+            
+        .section_10_img_wrapper-2
+            position: relative
+            i
+                position: absolute
+                top: 12%
+                left: 93%
+                color: #3E627D
+        .section_10_img_wrapper
+            position: relative
+            i
+                position: absolute
+                top: 12%
+                left: 95%
+                color: #3E627D            
+   
+.section_11_button
+    background-color: #B79237
+    box-shadow: none
+    border-bottom: #B79237*0.5 solid 2px
+    border-radius: 12px
+    padding: 4px 12px
+    font-family: "OpenSansRegular"
+    &:hover
+        background-color: lighten(#B79237, 5%)
+        transform: scale(1.03)   
+    &:active, &:focus
+        background-color: darken(#B79237, 5%)
+    
+
+
+.section_footer
+    background-color: #3E627D
+    padding: 15px 10px 40px 30px
+    text-align: center 
+    .pop
+        .top_ul2_il_1_wrap
+            i
+                color: #B79237
+            a
+                color: white * 0.7
+            &:hover
+                a
+                    color: white
+                i 
+                    color: #B79237 * 1.3
+        .top_ul2_il_2
+            a
+                color: #2F3B45 * 0.8
+                border-color: #2F3B45 
+
+            
+        
+textarea 
+    -webkit-box-sizing: border-box 
+    -moz-box-sizing: border-box    
+    box-sizing: border-box       
+
+    
+.section11_cont_second
+    text-align: center
+    max-width: 370px
+    margin: auto
+    display: block
+    
+.section_4_h2    
+    text-transform: uppercase
+    
+.section11_cont_second
+    transition: 0
+    box-shadow: rgba(0,0,0,.4) 3px 6px 10px
+    position: relative
+    z-index: 5
+    text-align: center
+    overflow: hidden
+    h3
+        margin-bottom: 0px
+        color: white
+        padding: 0 10px
+        font-size: 25px
+        text-transform: uppercase
+    .success
+        color: #fff
+        background-color: #3E627D
+        z-index: 1
+        width: 100%
+        height: 100%
+        right: 0
+        display: flex
+        left: 0
+        position: absolute
+        top: -100%
+        opacity: 0
+        +mt(.5s)
+        p
+            display: flex
+            margin: auto
+        &.active
+            top: 0
+            opacity: 1
+            
+            
+            
+            
+.scroll_button
+    position: fixed
+    bottom: 20px
+    right: -120px
+    width: 50px
+    height: 50px
+    border-radius: 100%
+    background-color: #fff * 0.9
+    cursor: pointer
+    text-align: center
+    vertical-align: middle
+    opacity: 0.4
+    z-index: 2
+    +mt(.25s)
+    &:hover
+        opacity: 1
+        background-color: #FF9600
+    i
+        font-size: 35px
+        color: #3E627D * 0.5
+        margin: 13% auto
+    &.active
+        right: 20px
+    
+    
+                
+//ALWAYS END
+@import media
+
+//Load Libs SASS
+@import app/libs/animate/animate.sass
+@import app/libs/Magnific-Popup-master/magnific.sass
+@import app/libs/font-awesome/css/font-awesome.sass
+@import app/libs/owl-carousel/assets/owl-carousel.sass
+
+	
